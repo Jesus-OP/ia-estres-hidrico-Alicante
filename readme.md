@@ -8,6 +8,7 @@
 > **Proyección de estrés hídrico urbano integrando series temporales inerciales y contexto sociológico en tiempo real (OSINT + APIs).**
 
 ![Dashboard Principal de AquaAlert](assets/dashboard.png)
+
 ![Informe generado por la LLM y eventos próximos](assets/informe_llm.png)
 
 ## 📌 Visión General del Proyecto
