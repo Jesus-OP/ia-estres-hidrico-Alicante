@@ -13,6 +13,8 @@
 
 El proyecto resuelve una limitación histórica en la gestión de infraestructuras críticas: **la ceguera de los modelos estadísticos tradicionales ante el comportamiento humano**. Un modelo clásico no sabe si hoy es festivo, si hay una ola de calor extrema o si ha atracado un megacrucero con 5.000 pasajeros. Para resolver esto, he diseñado una **Arquitectura de Ensamble Híbrido** que separa la "física" de la red (inercia histórica) de la "sociología" de la ciudad (contexto en tiempo real).
 La aplicación se encuentra abierta y disponible para usar en el siguiente enlace: https://aquaalert.streamlit.app/
+
+
 ![Dashboard Principal de AquaAlert](assets/dashboard.png)
 
 ![Informe generado por la LLM y eventos próximos](assets/informe_llm.png)
