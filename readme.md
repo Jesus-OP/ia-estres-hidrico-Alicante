@@ -7,7 +7,8 @@
 
 > **Proyección de estrés hídrico urbano integrando series temporales inerciales y contexto sociológico en tiempo real (OSINT + APIs).**
 
-![AquaAlert Dashboard](https://img.shields.io/badge/Insertar_Captura_Dashboard_Aqui-Gris)
+![Dashboard Principal de AquaAlert](assets/dashboard.png)
+![Informe generado por la LLM y eventos próximos](assets/informe_llm.png)
 
 ## 📌 Visión General del Proyecto
 
