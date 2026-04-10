@@ -61,6 +61,7 @@ AquaAlert/
 ├── requirements.txt           # 📦 Dependencias del entorno
 ├── .env.example               # 🔑 Plantilla de variables de entorno
 └── README.md                  # 📖 Documentación del proyecto
+```
 💻 Tech Stack
 Core ML & Data: Pandas, NumPy, Scikit-Learn, XGBoost.
 
