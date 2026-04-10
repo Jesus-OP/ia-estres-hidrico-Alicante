@@ -7,15 +7,16 @@
 
 > **Proyección de estrés hídrico urbano integrando series temporales inerciales y contexto sociológico en tiempo real (OSINT + APIs).**
 
-![Dashboard Principal de AquaAlert](assets/dashboard.png)
-
-![Informe generado por la LLM y eventos próximos](assets/informe_llm.png)
-
 ## 📌 Visión General del Proyecto
 
 **AquaAlert** es una solución End-to-End de Machine Learning diseñada para anticipar anomalías en la demanda de agua en los 43 sectores hidráulicos de la ciudad de Alicante. 
 
 El proyecto resuelve una limitación histórica en la gestión de infraestructuras críticas: **la ceguera de los modelos estadísticos tradicionales ante el comportamiento humano**. Un modelo clásico no sabe si hoy es festivo, si hay una ola de calor extrema o si ha atracado un megacrucero con 5.000 pasajeros. Para resolver esto, he diseñado una **Arquitectura de Ensamble Híbrido** que separa la "física" de la red (inercia histórica) de la "sociología" de la ciudad (contexto en tiempo real).
+La aplicación se encuentra abierta y disponible para usar en el siguiente enlace: https://aquaalert.streamlit.app/
+![Dashboard Principal de AquaAlert](assets/dashboard.png)
+
+![Informe generado por la LLM y eventos próximos](assets/informe_llm.png)
+
 
 ## 🧠 Arquitectura del Sistema
 
@@ -78,8 +79,7 @@ El proyecto está diseñado para ejecutarse localmente sin configuraciones compl
 
 1. Clonar e Instalar
 Bash
-git clone [https://github.com/](https://github.com/)[TuUsuario]/AquaAlert.git
-cd AquaAlert
+git clone ia-estres-hidrico-Alicante	https://github.com/Jesus-OP/ia-estres-hidrico-Alicante
 pip install -r requirements.txt
 2. Ejecución del Pipeline Analítico
 Para procesar los datos, consultar el entorno sociológico y generar las predicciones, ejecuta el motor principal (este script orquesta automáticamente el resto):
