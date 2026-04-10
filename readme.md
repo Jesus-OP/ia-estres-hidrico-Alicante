@@ -81,13 +81,7 @@ Bash
 git clone [https://github.com/](https://github.com/)[TuUsuario]/AquaAlert.git
 cd AquaAlert
 pip install -r requirements.txt
-2. Configuración de Entorno
-Crea un archivo .env en la raíz del proyecto y añade tus claves de API:
-
-Plaintext
-GROQ_API_KEY="tu_clave_de_groq_aqui"
-TICKETMASTER_KEY="tu_clave_de_ticketmaster_aqui"
-3. Ejecución del Pipeline Analítico
+2. Ejecución del Pipeline Analítico
 Para procesar los datos, consultar el entorno sociológico y generar las predicciones, ejecuta el motor principal (este script orquesta automáticamente el resto):
 
 Bash
